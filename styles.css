@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url("images/banner/banner2.png");
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header .header-text{
+    width: 400px;
+    text-align: right;
+    margin-right: 200px;
+}
+
+.header h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #151414;
+}
+.header p{
+    display: block;
+    font-size: 15px;
+    font-weight: 200;
+    color: #444343;
+    margin-right: 0!important;
+}
+.header button{
+    background: #F15822;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 20px 25px;
+    margin-top: 25px;
+    
+}
+/* main part of sectiom */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px;
+}
+.about img{
+    width: 350px;
+}
+.about .about-text{
+    margin-left: 50px;
+}
+.about .about-text ul li{
+    list-style: none;
+}
+.about .about-text ul li span{
+    color: green;
+}
+/* my plan part */
+.my-plan{
+    display: flex;
+    gap: 50px;
+    padding-left: 320px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.my-plan-heading{
+    margin-bottom: 60px;
+}
+.my-plan .my-plan-item{
+ text-align: center;
+}
+.my-plan-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+}
+/* cta-banner */
+.cta-banner{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+.cta-banner .cta-banner-content{
+    background-image: linear-gradient(to right, #f15b22, rgba(255, 255, 255, 0)), url(images/watch.png);
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+.cta-banner .cta-banner-content p{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+/* footer part */
+.footer{
+   background: #151414;
+   width: 100%;
+   height: 500px;
+   padding-top: 200px;
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-paragraph{
+    color: #FFFFFF;
+}
+.footer-discription{
+    width: 450px;
+}
+.footer-heading{
+    color: #F8F8F8;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.footer-discription ul li{
+    list-style: none;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+}
+.footer-discription p{
+    color: #F8F8F8;
+    margin-bottom: 10px;
+}
+.footer-right-part{
+    margin-left: 100px;
+}
+.footer-right-part h4{
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+.footer-right-part input{
+    margin-bottom: 10px;
+}
+.btn-primary{
+    background: #FFFFFF;
+    border-radius: 4px;
+    color: #F15822;
+    border: 0;
+    padding: 20px 25px;
+    margin-top: 25px;
+}
